@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century gothic;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #131515;
+}
+
+.navbar{
+	position: sticky;	
+	top: 0px;
+
+	background-color: #339989;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 999;
+}
+
+
+nav a {
+	margin: 10px 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: #7DE2D1;
+}
+
+#home{
+	margin-left: 8%;
+	margin-top: 15%;
+}
+
+#home h1{
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#home p{
+	font-family: Courier New;
+	font-size: 20px;
+	color: white;
+	line-height: 22px;
+}
+
+span{
+	color: #7DE2D1;
+}
+
+.S6Logo {
+	width: 30%;
+	height: 84%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+	transform: translateX(0%);
+	transition: bottom 1s, left 1s;
+}
+
+.S6Logo:hover{
+	bottom: 40px;
+}
+
+
+
+
+/*TEAM SECTION*/
+#team{
+	display: flex;
+	flex-direction: column;
+	background: #131515;
+	margin-top: 35%;
+}
+
+.heading{
+	margin-left: 8%;
+	color: white;
+	font-size: 3rem;
+	font-family: Century Gothic;
+}
+
+.gallery{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.profile img{
+	margin-top: 15%;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	padding: 10px;
+	border: 5px solid #7DE2D1;
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+
+.profile:hover img{
+	filter: grayscale(0);
+	background-color: #339989;
+}
+
+
+.name{
+	margin-top: 30px;
+	font-size: 35px;
+	color: white;
+}
+
+.gender{
+	color: white;
+	font-weight: 100;
+	font-size: 3px;
+	letter-spacing: 3px;
+}
+
+.profile p{
+	color: white;
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+
+
